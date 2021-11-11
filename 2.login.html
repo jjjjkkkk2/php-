@@ -1,0 +1,20 @@
+<html >
+    <head> 
+        <title >登入範例 </title >  //網頁標題:登入範例
+        //<meta> charset 用來指定網頁內容是用什麼編碼 (character set)，網頁編碼 UTF-8。
+        <meta charset=" utf-8 " />        
+    </head>  
+    <body>   //內容 開始
+        //寫一個可以輸入帳密的表單，抓取方法是post  html會和login.php做溝通
+        <form method=post action=login.php >
+            //type : text 文字方塊  name : 儲存資料的變數名稱  <br /> 換行
+            帳號：<input  type =text name= id  > <br /> 
+            //type : password*字回應的文字方塊   name : 儲存資料的變數名稱
+            密碼：<input  type = password  name =" pwd " > <p > </p >
+            //type : submit 命令鈕     value : 命令鈕上的文字
+            <input type=submit value=“登入” > 
+            //value : 文字方塊內的預設值
+            <input type=reset value=“清除” >            
+        </form>  //表單
+    </body>  //內容 結束
+</html >
